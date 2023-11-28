@@ -17,3 +17,5 @@ int main()
         std::cout << "Top: " << decimalStack.top() << std::endl;
         decimalStack.pop();
     }
+    return 0;
+}
