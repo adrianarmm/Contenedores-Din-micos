@@ -11,3 +11,4 @@ int main()
     for (int num : miVector) {
         std::cout << num << " ";
     }
+    std::cout << std::endl;
