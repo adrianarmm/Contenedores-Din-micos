@@ -18,3 +18,7 @@ int main()
         std::cout << "El elemento más grande es: " << *maxElement << std::endl;
     } else
     {
+        std::cout << "El vector está vacío." << std::endl;
+    }
+    return 0;
+}
