@@ -10,7 +10,7 @@ int main()
     decimalList.push_back(3.6);
     decimalList.push_back(5.4);
 
-    std::stack<double, std::list<double>> decimalStack(decimalList);
+    std::stack<double, std::list<double> > decimalStack(decimalList);
 
     std::cout << "Elementos en la pila:" << std::endl;
     while (!decimalStack.empty()) {
