@@ -9,3 +9,5 @@ int main()
     decimalList.push_back(17.8);
     decimalList.push_back(3.6);
     decimalList.push_back(5.4);
+
+    std::stack<double, std::list<double>> decimalStack(decimalList);
