@@ -13,3 +13,6 @@ int main()
     for (std::vector<int>::iterator it = Vector.begin(); it != Vector.end(); ++it) {
         std::cout << *it << " ";
     }
+std::cout << std::endl;
+    return 0;
+}
