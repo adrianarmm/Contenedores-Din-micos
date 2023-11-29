@@ -10,3 +10,4 @@ int main()
     auto number = 5;
     auto result = square(number);
 
+    std::cout << "El cuadrado de " << number << " es " << result << std::endl;
