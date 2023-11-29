@@ -21,3 +21,10 @@ int main()
     for (double num : difference) {
         std::cout << num << " ";
     }
+    std::cout << std::endl;
+
+    std::cout << "Producto: ";
+    for (double num : product) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
