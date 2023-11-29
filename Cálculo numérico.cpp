@@ -15,3 +15,9 @@ int main()
     for (double num : sum) {
         std::cout << num << " ";
     }
+    std::cout << std::endl;
+
+    std::cout << "Resta: ";
+    for (double num : difference) {
+        std::cout << num << " ";
+    }
