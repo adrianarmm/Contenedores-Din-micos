@@ -28,3 +28,12 @@ int main()
         std::cout << num << " ";
     }
     std::cout << std::endl;
+
+    std::cout << "Cociente: ";
+    for (double num : quotient) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
