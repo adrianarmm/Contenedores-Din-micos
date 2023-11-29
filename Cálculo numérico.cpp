@@ -10,3 +10,8 @@ int main()
     std::valarray<double> difference = array1 - array2;
     std::valarray<double> product = array1 * array2;
     std::valarray<double> quotient = array1 / array2;
+
+    std::cout << "Suma: ";
+    for (double num : sum) {
+        std::cout << num << " ";
+    }
