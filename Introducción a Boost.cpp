@@ -10,3 +10,5 @@ int main() {
     } catch (boost::bad_lexical_cast& e) {
         std::cout << "Error conver: " << e.what() << std::endl;
     }
+    return 0;
+}
