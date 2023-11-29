@@ -21,3 +21,6 @@ int main()
     std::cout << "Uso de punteros inteligentes:" << std::endl;
     std::shared_ptr<int> smartPtr(new int(10)); // Ejemplo con shared_ptr
     std::cout << "Valor almacenado en el smart pointer: " << *smartPtr << std::endl;
+
+    return 0;
+}
