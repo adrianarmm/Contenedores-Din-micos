@@ -1,0 +1,5 @@
+set(BOOST_ROOT "/ruta/donde/descomprimiste/boost_1_xx_x")
+find_package(Boost REQUIRED)
+if (Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIRS})
+endif ()
