@@ -1,15 +1,14 @@
 #include <iostream>
 #include <boost/lexical_cast.hpp>
-
 int main() {
-    try {
-        std::string input = "123";
-        int number;
-        number = boost::lexical_cast<int>(input);
+    std::string s = "12345";
+    try { int i = boost::lexical_cast<int>(s);
+        std::cout << "Número: " << i << std::endl;
+    }
+    catch(boost::bad_lexical_cast &e)
+    {
+        std::cerr << "Error: " << e.what() << std::endl;
 
-        std::cout << "El número es: " << number << std::endl;
-    } catch (boost::bad_lexical_cast& e) {
-        std::cout << "Error conver: " << e.what() << std::endl;
     }
     return 0;
 }
