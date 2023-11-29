@@ -3,7 +3,7 @@
 #define BOOST_LEXICAL_CAST_INCLUDED
 
 #include <boost/config.hpp>
-#if-def BOOST_HAS_PRAGMA_ONCE
+#ifdef BOOST_HAS_PRAGMA_ONCE
 #   pragma once
 #endif
 
