@@ -8,3 +8,5 @@ int main() {
 
         std::cout << "El número es: " << number << std::endl;
     } catch (boost::bad_lexical_cast& e) {
+        std::cout << "Error conver: " << e.what() << std::endl;
+    }
